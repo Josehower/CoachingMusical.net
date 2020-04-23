@@ -1,4 +1,59 @@
-.bannerCabecera {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+/* * clases generales */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif, Arial, Helvetica;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+ h1{
+    font-size: 2em;
+    text-align: center; 
+ }
+
+ button{
+     padding: 8px;
+     border-radius: 20px;
+     border: solid 2px #b51b1b;
+     background-color: #d42020;
+     color: white;
+ }
+
+
+/* * bloques comunes */
+
+.header {
 background-color: #555555;
 color: #ffffff;
+}
+
+.banner-home {
+    background-color: #c57171;
+}
+
+.footer {
+background-color: #555555;
+color: #ffffff;
+}
+
+/* * estilos especificos */
+
+.header__logo {
+
+color: white;
+text-decoration: none;
+}
+
+.header__logo--texto {
+font-size: 2em;
+}
+
+.nav-principal a{
+    color: white;
+    text-decoration: none;
+    margin: 8px
 }
