@@ -21,7 +21,14 @@
      border: solid 2px #b51b1b;
      background-color: #d42020;
      color: white;
+     transition: .5s;
  }
+
+ button:hover {
+    border: solid 2px #b51b1b;
+    background-color: #7a15151a;
+    scale: 1.01;
+}
 
 
 
@@ -37,9 +44,7 @@ align-items: stretch;
 
 }
 
-.banner-home {
-    background-color: #c57171;
-}
+
 
 .footer {
 background-color: #555555;
@@ -89,6 +94,31 @@ color: #ffffff;
     justify-items: start;
     align-items: center;
     justify-items: start;
+    display: none;
+}
+/* * banner home */
+.banner-home {
+    background-color: #505050;
+    background-image: url("./imagenes/estudio.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 60vh;
+    display: grid;
+    color: white;
+    justify-content: center;
+
+}
+
+.banner-home__boton{
+align-self: center;
+justify-self: center;
+}
+
+.banner-home hr{
+    height: 1px;
+    background-color: #b51b1b;
+    border: none;
 }
 
 /* * banner ebook */
@@ -104,6 +134,16 @@ color: #ffffff;
 .banner-ebook__imagen-ebook {
  width: 90vw;
 
+}
+.banner-ebook__boton{
+    padding: 15px;
+}
+
+.banner-ebook__boton:hover {
+    color: #d42020;
+    font-weight: bold;
+    padding: 10px;
+    scale: 1.3;
 }
 
 
