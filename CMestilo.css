@@ -159,7 +159,15 @@ justify-self: center;
 }
 
 .columna-servicios{
-    margin: 20px auto
+    margin: 10px auto;
+    display: grid;
+    margin: 40px auto;
+
+}
+
+.columna-servicios img,.columna-servicios h2 {
+    justify-self: center;
+
 }
 
 /* * footer */
@@ -175,10 +183,25 @@ justify-self: center;
     padding: 2vw;
 
 }
-.footer div span{
-    display: block;
+.footer div span {
+    font-size: .6em;
+    padding: 5px 0;
+}
+
+.footer__otras-paginas li a{
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    font-size: .8em;
 
 }
 
+.footer__otras-paginas ul{
+list-style-type: none;
+}
+.fas {
+    color: #d42020;
+    font-size: 0.5em;
+}
 
 
