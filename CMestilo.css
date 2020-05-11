@@ -15,21 +15,26 @@
     text-align: center; 
  }
 
- button{
+ button, .botonFalso{
      padding: 8px;
      border-radius: 20px;
      border: solid 2px #b51b1b;
      background-color: #d42020;
      color: white;
      transition: .5s;
+     text-decoration: none;
  }
 
- button:hover {
+ button:hover, .botonFalso:hover {
     border: solid 2px #b51b1b;
     background-color: #7a15151a;
     scale: 1.01;
 }
 
+
+html {
+    scroll-behavior: smooth;
+  }
 
 
 /* * bloques comunes */
