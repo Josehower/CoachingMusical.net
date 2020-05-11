@@ -6,8 +6,8 @@ botonEbook.addEventListener('click', () => {
 });
 
 imgEbook.addEventListener('click', () => {
-    ml_account('webforms', '1363260', 'z5e3w8', 'show');
-  });
+  ml_account('webforms', '1363260', 'z5e3w8', 'show');
+});
 
 /* ! este event listener funciona para cualquier boton o imagen 
 siempre y cuando sea la unica con la clase especificada 

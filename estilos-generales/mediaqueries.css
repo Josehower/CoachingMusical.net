@@ -1,0 +1,24 @@
+@media screen and (max-width: 900px) {
+    .nav-principal{
+        display: none;
+    }
+    
+    .nav-mobil{
+        display: grid;
+    }
+    
+    .hamburguesa{
+        display: block;
+    }
+
+    .header__logo--texto {
+        font-size: 7vw;
+        margin-right: 2.5em;
+        text-align: center;
+    }
+    
+    
+    }
+
+
+

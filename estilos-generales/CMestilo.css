@@ -360,20 +360,3 @@ list-style-type: none;
     opacity: 1;
 
 }
-
-
-
-@media screen and (max-width: 900px) {
-.nav-principal{
-    display: none;
-}
-
-.nav-mobil{
-    display: grid;
-}
-
-.hamburguesa{
-    display: block;
-}
-
-}
