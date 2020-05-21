@@ -1,0 +1,48 @@
+header{
+    margin-bottom: 80px;
+}
+
+a.titleLink, a:visited.titleLink, a:hover.titleLink, a:active.titleLink {
+text-decoration: none;
+color: black;
+}
+
+a:hover.titleLink, a:active.titleLink {
+color: #414141;
+}
+
+h1{
+    font-size: 1.6em;
+    margin: 28px auto;
+    text-shadow: rgb(224, 224, 224) 3px 3px;
+}
+
+h2 {
+    color: #b51b1b;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+section img {
+    width: 70vw;
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    width: 70vw;
+    margin: 20px auto;
+    text-align: justify;
+
+}
+
+hr {
+height: 3px;
+width: 60vw;
+background-color: #b51b1b;
+margin: 0 auto;
+}
+
+
