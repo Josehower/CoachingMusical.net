@@ -1,2 +1,2 @@
-const webTarget = document.querySelector(".targetPage").innerText;
+const webTarget = document.querySelector('.targetPage').innerText;
 window.location.replace(webTarget);

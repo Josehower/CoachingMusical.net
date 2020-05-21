@@ -61,6 +61,18 @@ background-color: #555555;
 color: #ffffff;
 }
 
+.footer__otras-paginas li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0.5em;
+
+}
+
+.footer__otras-paginas li:before {
+    content: '◾';
+    margin-left: -20px;
+    margin-right: 10px;
+    }
 
 
 /* * header */

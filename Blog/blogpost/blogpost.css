@@ -1,0 +1,65 @@
+
+h1{
+    font-size: 1.6em;
+    margin: 28px auto;
+    text-shadow: rgb(224, 224, 224) 3px 3px;
+}
+
+h2, h3, h4{
+    margin: 30px 0;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h5 {
+    color: #b51b1b;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 15px auto;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0.5em;
+}
+
+dd:before, li:before {
+    content: '💢';
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: .9em;
+    }
+
+dd, dt, ul{
+    margin-top: 1em;
+}
+
+dd {
+    font-size: 0.8em;
+}
+
+p {
+    margin: 20px 0
+}
+
+section img {
+    width: 70vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.listTittle {
+    text-decoration: none;
+    list-style: none;
+    margin: 0.5em;
+}
+
+.listTittle:before, .listTittle:before {
+    content: '';
+    margin-left: -20px;
+    margin-right: 10px;
+    font-size: .9em;
+    }
